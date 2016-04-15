@@ -26,6 +26,7 @@
     "file-loader": "^0.8.5",
     "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2",
+    "gulp-connect": "^3.2.2",
     "gulp-if": "^2.0.0",
     "gulp-webpack": "^1.5.0",
     "require-dir": "^0.3.0",

@@ -65,5 +65,7 @@ jspm_packages
 .node_repl_history
 
 
-www
-
+www/*
+!www/assets
+www/assets/css
+!www/assets/images
