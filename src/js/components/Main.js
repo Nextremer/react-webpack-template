@@ -1,8 +1,8 @@
 import React from 'react';
 import CSSModules from 'react-css-modules';
-import style from './Main.css';
+import styles from './Main.css';
 
-@CSSModules( style )
+@CSSModules( styles )
 export default class Main extends React.Component {
   constructor( props ) {
     super( props );
@@ -10,7 +10,7 @@ export default class Main extends React.Component {
 
   render() {
     return (
-      <div styleName="main">
+      <div className={ styles.main }>
         Hello
       </div>
     );
