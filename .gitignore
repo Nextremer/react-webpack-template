@@ -1,8 +1,8 @@
 
-# Created by https://www.gitignore.io/api/osx,node
+# Created by https://www.gitignore.io/api/osx
 
 ### OSX ###
-.DS_Store
+*.DS_Store
 .AppleDouble
 .LSOverride
 
@@ -19,6 +19,7 @@ Icon
 .TemporaryItems
 .Trashes
 .VolumeIcon.icns
+.com.apple.timemachine.donotpresent
 
 # Directories potentially created on remote AFP share
 .AppleDB
@@ -27,6 +28,7 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+# Created by https://www.gitignore.io/api/node
 
 ### Node ###
 # Logs
@@ -44,6 +46,9 @@ lib-cov
 
 # Coverage directory used by tools like istanbul
 coverage
+
+# nyc test coverage
+.nyc_output
 
 # Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
 .grunt
@@ -65,7 +70,4 @@ jspm_packages
 .node_repl_history
 
 
-www/*
-!www/assets
-www/assets/css
-!www/assets/images
+www
